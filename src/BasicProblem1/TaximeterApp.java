@@ -2,7 +2,7 @@ package BasicProblem1;
 
 import java.util.Scanner;
 
-public class taxiApp {
+public class TaximeterApp {
     public static void main(String[] args) {
         int km,minimumPay; double perKm,startPrice,total;
         Scanner input=new Scanner(System.in);

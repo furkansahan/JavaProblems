@@ -2,7 +2,7 @@ package BasicProblem1;
 
 import java.util.Scanner;
 
-public class taxcalculated {
+public class TaxCalculate {
     public static void main(String[] args) {
     double price,tax_ratio=0.18,with_tax_price,calculated_tax_price;
         Scanner input=new Scanner(System.in);

@@ -2,7 +2,7 @@ package BasicProblem1;
 
 import java.util.Scanner;
 
-public class average {
+public class Average {
     public static void main(String[] args) {
         int mat,english,chemistry,physic;
         Scanner inp=new Scanner(System.in);

@@ -2,7 +2,7 @@ package BasicProblem1;
 
 import java.util.Scanner;
 
-public class circleArea {
+public class CircleArea {
     public static void main(String[] args) {
         int r; double pi=3.14;
         Scanner inp=new Scanner(System.in);

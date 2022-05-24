@@ -2,7 +2,7 @@ package BasicProblem1;
 
 import java.util.Scanner;
 
-public class bodyMassIndex {
+public class BodyMassIndex {
     public static void main(String[] args) {
         double weight,height,bodyMassIndex;
         Scanner input=new Scanner(System.in);

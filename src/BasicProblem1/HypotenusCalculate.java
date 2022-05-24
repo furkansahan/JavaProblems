@@ -2,7 +2,7 @@ package BasicProblem1;
 
 import java.util.Scanner;
 
-public class hypotenuseCalculate {
+public class HypotenusCalculate {
     public static void main(String[] args) {
         double a,b,c,hypotenus;
         Scanner input=new Scanner(System.in);
