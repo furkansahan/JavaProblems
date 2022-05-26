@@ -19,6 +19,7 @@ public class ForLoop {
             i++;
         }
         average=total/counter;
+        System.out.println("counter = " + counter);
         System.out.println("Average :"+average);
     }
 }
