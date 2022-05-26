@@ -7,28 +7,28 @@ public class ActivityByTemperature {
         Scanner inp = new Scanner(System.in);
         int temp;
 
-        System.out.print("Sicakligi giriniz: ");
+        System.out.print("Enter the degree: ");
         temp = inp.nextInt();
 
         if(temp<5)
         {
-            System.out.print("Kayak yapabilirsiniz.");
+            System.out.print("You can do the ski");
         }
         else if(temp>5 && temp<15)
         {
-            System.out.print("Sinemaya Gidebilirsiniz.");
+            System.out.print("You can go to the cinema");
         }
         else if(temp==15)
         {
-            System.out.print("Sinemaya Gidebilirsiniz veya Piknik Yapabilirsiniz.");
+            System.out.print("You can go to the Cinema or You can have a picnic.");
         }
         else if(temp>15 && temp<25)
         {
-            System.out.print("Piknik Yapabilirsiniz.");
+            System.out.print("You can have a picnic.");
         }
         else if(temp>25)
         {
-            System.out.print("Yuzmeye Gidebilirsiniz.");
+            System.out.print("You can go to the swim");
         }
 
     }
